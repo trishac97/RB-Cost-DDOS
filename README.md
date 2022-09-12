@@ -1,0 +1,4 @@
+# RB-Cost-DDOS
+This project proposes an EDoS defense, LCharge, that uses resource burning while accounting for on-demand provisioning. LCharge leverages an estimate of the number of job requests from honest clients (i.e., good jobs) in any set S of requests to within an O(α)-factor, for any unknown α > 0 but retains a strong security guarantee despite the uncertainty of this estimate. Specifically, against an adversary that expends B resources to attack, the total cost for defending is O(α^5/2√B (g + 1) + α^3(g + α)) where g is the number of good jobs. Notably, for large B relative to g and α, the adversary21 has higher cost, implying that the algorithm has an economic advantage. Finally, we prove a lower bound for our problem of Ω(√αBg), showing that the cost of LCharge is asymptotically tight for α = Θ(1).
+
+This work is sumbmitted to OPODIS 2022.
